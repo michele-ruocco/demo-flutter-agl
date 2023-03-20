@@ -1,0 +1,11 @@
+/home/ubuntu-infotainment/AGL/master/external/meta-flutter/tools/app/hello_world/build/linux/x64/debug/bundle/hello_world
+/home/ubuntu-infotainment/AGL/master/external/meta-flutter/tools/app/hello_world/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/ubuntu-infotainment/AGL/master/external/meta-flutter/tools/app/hello_world/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/ubuntu-infotainment/AGL/master/external/meta-flutter/tools/app/hello_world/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/ubuntu-infotainment/AGL/master/external/meta-flutter/tools/app/hello_world/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/ubuntu-infotainment/AGL/master/external/meta-flutter/tools/app/hello_world/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/ubuntu-infotainment/AGL/master/external/meta-flutter/tools/app/hello_world/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/ubuntu-infotainment/AGL/master/external/meta-flutter/tools/app/hello_world/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/ubuntu-infotainment/AGL/master/external/meta-flutter/tools/app/hello_world/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/ubuntu-infotainment/AGL/master/external/meta-flutter/tools/app/hello_world/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/ubuntu-infotainment/AGL/master/external/meta-flutter/tools/app/hello_world/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
