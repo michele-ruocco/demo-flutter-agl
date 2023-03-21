@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "f08a79f090834c0537f86454b4fee5f30a819a3714a7851a287304cc4403e1c2"
+build_start_time: [1679397365, 286189079]
+build_end_time: [1679397368, 500355958]
+inputs:
+  "/Users/raffaelemorlando/workspace/app/video_player/macos/Flutter/GeneratedPluginRegistrant.swift": [1679397335, 113552093]
+  "/Users/raffaelemorlando/workspace/app/video_player/macos/Runner/AppDelegate.swift": [1678966328, 310645818]
+  "/Users/raffaelemorlando/workspace/app/video_player/macos/Runner/MainFlutterWindow.swift": [1678966328, 322147846]
