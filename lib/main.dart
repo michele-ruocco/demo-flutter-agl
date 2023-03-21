@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:video_player/screens/Home/home.dart';
+import 'package:poc_radio/screens/Home/home.dart';
 
 void main() {
   runApp(MyApp());

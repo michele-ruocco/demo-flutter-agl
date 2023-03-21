@@ -57,14 +57,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.1"
-  ffi:
-    dependency: transitive
-    description:
-      name: ffi
-      sha256: a38574032c5f1dd06c4aee541789906c12ccaab8ba01446e800d9c5b79c4a978
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.1"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -78,14 +70,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.5"
-  flutter_gstreamer_player:
-    dependency: "direct main"
-    description:
-      name: flutter_gstreamer_player
-      sha256: d4b406ae9b36a3c641169ad4eeae7bb48e79962839589b7be0cabba77767c0b4
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.3"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -99,22 +83,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  http:
-    dependency: transitive
-    description:
-      name: http
-      sha256: "6aa2946395183537c8b880962d935877325d6a09a2867c3970c05c0fed6ac482"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.13.5"
-  http_parser:
-    dependency: transitive
-    description:
-      name: http_parser
-      sha256: "2aa08ce0341cc9b354a498388e30986515406668dbcc4f7c950c3e715496693b"
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.0.2"
   js:
     dependency: transitive
     description:
@@ -147,54 +115,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.2.0"
-  media_kit:
-    dependency: "direct main"
-    description:
-      name: media_kit
-      sha256: "6458c657406fa736e2584e18a4afbb9e395b1b2dd214a0160ce1fad8f0d2c43a"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.1"
-  media_kit_libs_linux:
-    dependency: "direct main"
-    description:
-      name: media_kit_libs_linux
-      sha256: bbf84f64fa45430449b74bda44ab7c2fa55d800d12a3115a8ff9ef11bd93a2e5
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0"
-  media_kit_libs_windows_audio:
-    dependency: "direct main"
-    description:
-      name: media_kit_libs_windows_audio
-      sha256: "417c1578cd9dbd490a7ac5ba447e31d3c3139a65c089b31095b7980d54aeeec5"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.1"
-  media_kit_libs_windows_video:
-    dependency: "direct main"
-    description:
-      name: media_kit_libs_windows_video
-      sha256: aadc5b6a24b8cfc3adda910fa824ed2af6cb2d33fef84227d2bb2900ce207bd6
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0"
-  media_kit_native_event_loop:
-    dependency: "direct main"
-    description:
-      name: media_kit_native_event_loop
-      sha256: e0efd10c310fa1506b516de8d2c9ff7add8745bdb615c94dba718e22484ce8b0
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0"
-  media_kit_video:
-    dependency: "direct main"
-    description:
-      name: media_kit_video
-      sha256: "787e027081a826374baf1af41b6870caa182c44a68dadb20f0b9a6ca24be68bc"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.1"
   meta:
     dependency: transitive
     description:
@@ -211,22 +131,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.2"
-  plugin_platform_interface:
-    dependency: transitive
-    description:
-      name: plugin_platform_interface
-      sha256: "6a2128648c854906c53fa8e33986fc0247a1116122f9534dd20e3ab9e16a32bc"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.4"
-  safe_local_storage:
-    dependency: transitive
-    description:
-      name: safe_local_storage
-      sha256: "7ca14be87040e6badfcdb9c71e963846c4e7d827dbc9f62cab7496497352f8d8"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -264,14 +168,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
-  synchronized:
-    dependency: transitive
-    description:
-      name: synchronized
-      sha256: "33b31b6beb98100bf9add464a36a8dd03eb10c7a8cf15aeec535e9b054aaf04b"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.0.1"
   term_glyph:
     dependency: transitive
     description:
@@ -288,22 +184,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.4.16"
-  typed_data:
-    dependency: transitive
-    description:
-      name: typed_data
-      sha256: "26f87ade979c47a150c9eaab93ccd2bebe70a27dc0b4b29517f2904f04eb11a5"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.3.1"
-  uri_parser:
-    dependency: transitive
-    description:
-      name: uri_parser
-      sha256: f47b97479d6c818f739135e3abdd64d629804ea4fff7a5e394a37ca6fe8dce0a
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.0"
   vector_math:
     dependency: transitive
     description:
@@ -313,5 +193,4 @@ packages:
     source: hosted
     version: "2.1.4"
 sdks:
-  dart: ">=2.18.0 <3.0.0"
-  flutter: ">=2.5.0"
+  dart: ">=2.19.3 <3.0.0"
