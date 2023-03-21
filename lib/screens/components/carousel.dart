@@ -2,8 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_gallery_3d/gallery3d.dart';
-// import 'package:media_kit/media_kit.dart';
-import 'package:poc_radio/screens/Player/player.dart';
+import 'package:hello_world/screens/player/player.dart';
 
 class Gallery extends StatefulWidget {
   const Gallery({key});
@@ -32,7 +31,7 @@ class _GalleryState extends State<Gallery> {
         isClip: true,
 
         // ellipseHeight: 80,
-        itemConfig: GalleryItemConfig(
+        itemConfig: const GalleryItemConfig(
           width: 220,
           height: 300,
           radius: 10,
@@ -45,10 +44,14 @@ class _GalleryState extends State<Gallery> {
         currentIndex: currentIndex,
         onItemChanged: (index) {
           setState(() {
-            this.currentIndex = index;
+            currentIndex = index;
           });
         },
-        onClickItem: (index) => {},
+        onClickItem: (index) => {
+              Navigator.push(context, MaterialPageRoute(builder: (context) {
+                return PlayerScreen();
+              }))
+            },
         itemBuilder: (context, index) {
           return Image.network(
             imageUrlList[index],
@@ -78,24 +81,6 @@ class _GalleryState extends State<Gallery> {
         ],
       ),
     );
-    // return SingleChildScrollView(
-    // child: Column(
-    //   children: [
-    //     Stack(
-    //       children: [
-    //         BackgrounBlurView(
-    //           imageUrl: imageUrlList[currentIndex],
-    //         ),
-    //         Container(
-    //           padding: EdgeInsets.only(top: 40),
-    //           child: buildGallery3D(),
-    //           margin: EdgeInsets.fromLTRB(0, 20, 0, 20),
-    //         ),
-    //       ],
-    //     )
-    //   ],
-    // ),
-    // )
   }
 }
 

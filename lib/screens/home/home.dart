@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:poc_radio/screens/Home/gallery.dart';
+import 'package:hello_world/screens/components/carousel.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
